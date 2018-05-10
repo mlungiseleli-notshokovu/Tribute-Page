@@ -1,27 +1,32 @@
+body{
+    padding: 20px;
+}
 .container {
-  background-color: pink;
+  padding: 20px;
 }
 h1 {
   font-size: 50px;
   text-shadow: 3px 2px pink;
 }
+
+p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #sub-heading {
   color: black;
 }
-img {
-  /*width: 50em;*/
-  height: 10em;
-  display: block;
-  border-radius: 5px;
-  margin-left: auto;
-  margin-right: auto;
-}
-/*#image-border{
-    border: 5px solid ;#5683ea
-    border-radius: 5px;
-    margin-left: 3em;
+
+#image-border{
+    display: block;
+    margin-left: auto;
     margin-right: auto;
-  }*/
+    width: 50%;
+    padding-bottom: 20px;
+  }
+
+
 footer {
   margin-top: auto;
   position: absolute;
@@ -30,7 +35,6 @@ footer {
   /*bottom: 0;*/
   left: 0;
   padding: 0.1rem;
-  border: 5px solid #5683ea;
   text-align: center;
   background: #d7deed;
 }
