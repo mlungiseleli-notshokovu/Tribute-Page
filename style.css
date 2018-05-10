@@ -1,0 +1,36 @@
+.container {
+  background-color: pink;
+}
+h1 {
+  font-size: 50px;
+  text-shadow: 3px 2px pink;
+}
+#sub-heading {
+  color: black;
+}
+img {
+  /*width: 50em;*/
+  height: 10em;
+  display: block;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*#image-border{
+    border: 5px solid ;#5683ea
+    border-radius: 5px;
+    margin-left: 3em;
+    margin-right: auto;
+  }*/
+footer {
+  margin-top: auto;
+  position: absolute;
+  right: 0;
+  border-radius: 4px;
+  /*bottom: 0;*/
+  left: 0;
+  padding: 0.1rem;
+  border: 5px solid #5683ea;
+  text-align: center;
+  background: #d7deed;
+}
