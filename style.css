@@ -1,8 +1,13 @@
 body{
-    padding: 20px;
+    padding:0;
 }
-.container {
+
+.container-fluid {
   padding: 20px;
+  border: #c1c1c1 solid .5px;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 5px 5px #919396;
 }
 h1 {
   font-size: 50px;
@@ -10,7 +15,7 @@ h1 {
 }
 
 p{
-    font-size: 18px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -19,22 +24,23 @@ p{
 }
 
 #image-border{
-    display: block;
-    margin-left: auto;
+    display: flex;
+    /*margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    padding-bottom: 20px;
+    width: 50%;*/
+    justify-content: center;
+    padding-bottom: 10px;
+
   }
 
+#main-footer{
+ border: #919396 solid 1px;
+ border-radius: 5px;
+ text-align: center;
+ padding-top: 10px;
+ background-color: #919396;
+}
 
-footer {
-  margin-top: auto;
-  position: absolute;
-  right: 0;
-  border-radius: 4px;
-  /*bottom: 0;*/
-  left: 0;
-  padding: 0.1rem;
-  text-align: center;
-  background: #d7deed;
+.fa-heart{
+  color: red;
 }
